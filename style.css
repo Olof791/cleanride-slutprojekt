@@ -9,10 +9,33 @@ body{
     
     background-color: rgb(78, 110, 129);
     gap: 2rem;
+    margin: 0   ;
 }
 
 h1{
     font-size: 3rem;
     color: #f0f0f0;
     
+}
+
+p{
+    font-size: 1.5rem;
+    color: #f0f0f0;
+    max-width: 600px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: white;
+    margin-top: 2rem;
+    p {
+        color: rgb(78, 110, 129);
+    }
+    padding: 20px;
+    width: 100%;
+    text-align: center;
 }
