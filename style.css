@@ -1,6 +1,18 @@
 body{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    background-color: maroon;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    
+    
+    background-color: rgb(78, 110, 129);
+    gap: 2rem;
+}
+
+h1{
+    font-size: 3rem;
+    color: #f0f0f0;
+    
 }
